@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Таблица</title>
+</head>
+<style type="text/css">
+  table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 150px;
+  }
+  
+  table td {
+    text-align: center;
+  }
+  
+  table td {
+    border: 1px solid #000;
+  }
+  
+  .five {
+    font-weight: 900;
+  }
+  
+  .five a {
+    text-decoration: none;
+  }
+</style>
+
+<body>
+  <table border>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">4</td>
+      <td class="five" colspan="2"><a href="#" onclick="alert('Hello, world!'); return false;">5</a></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+  </table>
+</body>
+
+</html>
